@@ -12,8 +12,7 @@ public class Main extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("doGet");
-		req.setCharacterEncoding("UTF-8");
+		System.out.println("doGet : Main");
 		getPara(req);
 	}
 
